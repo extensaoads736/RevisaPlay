@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RevisaPlay – Revise jogando</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#topo"><i>▶</i>RevisaPlay</a>
+<nav><a href="#como">Como funciona</a><a href="#ranking">Ranking</a><a href="#pesquisa">Pesquisa</a><a href="#professores">Professores</a><span id="navauth"></span></nav>
+</div></header>
+
+<main id="topo">
+<div class="hero"><div class="wrap">
+<div>
+<h1>Revise a matéria <em>jogando.</em></h1>
+<p class="lead">Quizzes, pontos, medalhas e ranking com a sua turma. O RevisaPlay transforma a revisão do que o professor explicou em um jogo que você quer continuar.</p>
+<div class="cta"><button class="btn sun" id="heroCta" type="button">Criar minha conta</button><a class="btn" style="background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--line)" href="#como">Como funciona</a></div>
+<div class="proof"><div><b>72%</b>usariam a plataforma</div><div><b>81%</b>querem ver a própria evolução</div><div><b>36</b>respostas na pesquisa</div></div>
+</div>
+
+</div></div>
+
+<section id="como"><div class="wrap">
+<h2>Quatro passos para fixar o conteúdo</h2>
+<p class="sub">O professor explica, você revisa jogando. O RevisaPlay complementa a aula e não substitui o professor.</p>
+<div class="steps">
+<div class="step"><i>1</i><h3>Escolha</h3><p>Entre na sala e escolha a matéria que quer revisar.</p></div>
+<div class="step"><i>2</i><h3>Responda</h3><p>Quizzes curtos com resposta e explicação na hora.</p></div>
+<div class="step"><i>3</i><h3>Ganhe</h3><p>Pontos por acerto, bônus por constância e medalhas.</p></div>
+<div class="step"><i>4</i><h3>Evolua</h3><p>Suba de nível, acompanhe seu progresso e suba no ranking.</p></div>
+</div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<h2>Feito para a revisão virar hábito</h2>
+<div class="bento">
+<div class="card c1"><h3>Medalhas e recompensas</h3><p>Cada meta cumprida vira uma conquista que você mostra para a turma.</p>
+<div class="badges"><span class="badge">🚀</span><span class="badge">🔥</span><span class="badge">🧠</span><span class="badge off">👑</span><span class="badge off">⚡</span></div></div>
+<div class="card c2"><h3>Resposta na hora</h3><p>Errou? Você vê o motivo logo depois do clique, enquanto o assunto ainda está fresco na cabeça.</p></div>
+<div class="card c3"><h3>Ranking saudável</h3><p>Competição amigável entre colegas, com foco em quem mais evoluiu.</p></div>
+<div class="card c4"><h3>No celular ou no PC</h3><p>Interface responsiva para usar na escola, no ônibus ou em casa.</p></div>
+<div class="card c5"><h3>Alinhado à escola</h3><p>Conteúdos ligados às matérias que você já está estudando.</p></div>
+</div>
+</div></section>
+
+<section id="ranking"><div class="wrap rank">
+<div>
+<h2>Sua turma, seu placar</h2>
+<p class="sub">Cada acerto vale XP, e sequências de acertos dão bônus. O ranking mostra quem mais revisou e quem mais evoluiu na turma.</p>
+</div>
+<div class="board" id="board" aria-label="Ranking da turma"></div>
+</div></section>
+
+<section id="pesquisa"><div class="wrap">
+<div class="stats">
+<h2>O que os estudantes disseram</h2>
+<p class="sub" style="opacity:.8">Pesquisa feita pelo grupo com 36 pessoas, quase todas estudantes de Ensino Fundamental II, Médio e Superior.</p>
+<div class="sgrid">
+<div><b>44%</b><span>dizem que o maior desafio ao estudar é a falta de motivação</span></div>
+<div><b>51%</b><span>só revisam o conteúdo quando tem prova</span></div>
+<div><b>61%</b><span>dão nota máxima para o interesse por jogos digitais</span></div>
+<div><b>72%</b><span>usariam muito uma plataforma de jogos e quizzes para revisar</span></div>
+</div>
+<p class="note">Fonte: formulário aplicado pelos autores (Google Forms). Também pesquisamos o que mais motiva: ver o progresso (81%), ranking e pontos (67% cada).</p>
+</div>
+</div></section>
+
+<section id="professores" style="padding-top:20px"><div class="wrap">
+<h2>Pensado também para quem ensina</h2>
+<div class="teach">
+<div class="card"><h3>Para professores</h3><ul><li>Crie quizzes para a sua turma</li><li>Correção automática</li><li>Acompanhe o desempenho dos alunos</li></ul></div>
+<div class="card"><h3>Primeira versão (MVP)</h3><ul><li>Cadastro e login de aluno e professor</li><li>Pontuação, feedback e ranking básico</li><li>Medalhas e níveis de progresso</li></ul></div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><div><b>RevisaPlay</b> · Projeto Integrado Multidisciplinar de ADS</div><div>USCS – Universidade Municipal de São Caetano do Sul · 2026</div></div></footer>
+
+<dialog id="dlg" aria-labelledby="dt">
+<button class="x" id="cl" type="button" aria-label="Fechar">×</button>
+<h3 id="dt">Entre no RevisaPlay</h3>
+<div class="tabs" role="tablist"><button type="button" role="tab" id="tUp">Criar conta</button><button type="button" role="tab" id="tIn">Entrar</button></div>
+<form id="af" novalidate>
+<label class="fld" id="nmw">Nome<input id="nm" autocomplete="name"></label>
+<label class="fld">E-mail<input id="em" type="email" autocomplete="email" inputmode="email"></label>
+<label class="fld">Senha<input id="pw" type="password" autocomplete="new-password"></label>
+<p id="msg" role="alert"></p>
+<button class="btn" id="sb" style="width:100%">Criar conta</button>
+</form>
+<p class="dn">Versão de teste: a conta fica salva só neste navegador e a senha é guardada em formato protegido.</p>
+</dialog>
+<script src="script.js"></script>
+</body>
+</html>
